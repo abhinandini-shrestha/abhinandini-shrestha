@@ -16,7 +16,6 @@ Portfolio version 1.0.0 · Software Engineer · AI & Data
 abhinandini@portfolio:~$ cat about.txt
 6+ yrs full-stack · SaaS · APIs · data pipelines
 M.S. Information Management, University of Washington
-Built an LLM document classifier: 15K+ docs/day, -30% review time
 ```
 
 ## 👩‍💻 About Me
@@ -33,7 +32,7 @@ Hi! I'm Abhinandini, a full-stack software engineer with **6+ years** of experie
   <tr>
     <td width="33%" valign="top">
       <h4>🧠 AI &amp; LLM Development</h4>
-      LLM-powered document classification, RAG, AI agents and prompt engineering, in production at 15K+ docs/day.
+      LLM-powered document classification system, RAG, AI agents and prompt engineering.
     </td>
     <td width="33%" valign="top">
       <h4>🧩 Full-Stack Development</h4>
@@ -41,7 +40,7 @@ Hi! I'm Abhinandini, a full-stack software engineer with **6+ years** of experie
     </td>
     <td width="33%" valign="top">
       <h4>🖥️ Backend &amp; APIs</h4>
-      RESTful APIs and integrations for an ERP platform handling 10K+ daily transactions.
+      RESTful APIs and integrations for a high-volume ERP platform.
     </td>
   </tr>
   <tr>
