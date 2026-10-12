@@ -9,7 +9,7 @@ interface AppleStyleHeroProps {
 }
 
 /* ✏️ Personal details — edit here */
-const RESUME_URL = '/resume.pdf'; // put resume.pdf in your /public folder
+const RESUME_URL = '/Abhinandini-Shrestha.pdf'; // put resume.pdf in your /public folder
 const PHONE = '+1 (206)-335-1168'; // e.g. '+12065550123' — leave empty to hide the phone icon
 
 const SOCIAL_LINKS = [
