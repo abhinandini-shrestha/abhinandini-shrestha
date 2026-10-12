@@ -4,7 +4,7 @@ import { Card, CardContent } from './ui/card';
 import { MapPin, Briefcase, Heart, GraduationCap } from 'lucide-react';
 
 /* ✏️ Edit content here */
-const PHOTO_SRC = 'public/images/about-image.jpg'; // file in your /public folder (or import it from src/assets)
+const PHOTO_SRC = '/images/about-image.jpg'; // file in your /public folder (or import it from src/assets)
 
 const TRAITS = ['Problem Solver', 'Team Player', 'Empathetic', 'Organized'];
 
