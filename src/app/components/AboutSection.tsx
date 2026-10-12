@@ -100,7 +100,7 @@ export function AboutSection() {
 
                   <p className="text-sm text-muted-foreground">
                     <Heart className="inline h-4 w-4 mr-1.5 -mt-0.5 text-pink-500" aria-hidden="true" />
-                    Off the clock: hiking, traveling, hunting for good food, and any dog or cat that will let me pet them.
+                    Off the clock: Hiker, traveler, foodie. Will befriend you for your pets!
                   </p>
                 </div>
 

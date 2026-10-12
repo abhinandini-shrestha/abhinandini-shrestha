@@ -31,17 +31,18 @@ export default function App() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['home', 'about', 'skills', 'contact'];
-      const currentSection = sections.find(section => {
+      const currentSection = sections.reduce((active, section) => {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          return rect.top <= window.innerHeight / 2;
+          if (rect.top <= window.innerHeight / 2) {
+            return section;
+          }
         }
-        return false;
-      });
-      if (currentSection) {
-        setActiveSection(currentSection);
-      }
+        return active;
+      }, 'home');
+
+      setActiveSection(currentSection);
     };
 
     window.addEventListener('scroll', handleScroll);

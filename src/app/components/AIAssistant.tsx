@@ -157,13 +157,22 @@ export function AIAssistant() {
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false);
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(typeof window !== 'undefined' && window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' && window.innerWidth < 768);
   const scrollAreaRef = useRef<HTMLDivElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     scrollToBottom();
@@ -192,23 +201,29 @@ export function AIAssistant() {
 
   if (isMinimized) {
     return (
-      <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="fixed bottom-4 right-4 z-50">
+      <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50">
         <Button
           onClick={() => setIsMinimized(false)}
           aria-label="Open AI assistant"
-          className="rounded-full w-14 h-14 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 shadow-lg"
+          className="rounded-full w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 shadow-lg"
         >
-          <Bot className="h-6 w-6" />
+          <Bot className="h-5 w-5 md:h-6 md:w-6" />
         </Button>
       </motion.div>
     );
+  }
+
+  if (isMobile && isMinimized) {
+    return null;
   }
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
-      className="fixed bottom-[calc(1rem+40px)] right-4 z-50 w-96 max-w-[calc(100vw-2rem)]"
+      className={`fixed z-50 w-96 max-w-[calc(100vw-2rem)] ${
+        isMobile ? 'bottom-0 left-0 right-0 top-20 w-full max-w-none rounded-t-lg' : 'bottom-[calc(1rem+40px)] right-4 md:right-6'
+      }`}
     >
       <Card className="shadow-2xl border-2 border-purple-200 dark:border-purple-800 gap-0 overflow-hidden">
         <CardHeader className="pb-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
