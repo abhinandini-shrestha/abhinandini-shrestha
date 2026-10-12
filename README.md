@@ -119,7 +119,7 @@ I'm always happy to hear about interesting problems and collaborate on meaningfu
 <p align="left">
   <a href="mailto:abhinandinishrestha@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>
   <a href="https://www.linkedin.com/in/abhinandini-shrestha/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio" /></a>
+  <a href="https://abhinandini-shrestha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio" /></a>
 </p>
 
 <!-- Footer -->
