@@ -15,17 +15,7 @@ Portfolio version 1.0.0 · Software Engineer · AI & Data
 
 abhinandini@portfolio:~$ cat about.txt
 6+ yrs full-stack · SaaS · APIs · data pipelines
-M.S. Information Management, University of Washington
 ```
-
-## 👩‍💻 About Me
-
-Hi! I'm Abhinandini, a full-stack software engineer with **6+ years** of experience building SaaS platforms, APIs and data pipelines, now focused on **AI**. I love working with stakeholders to understand their pain points and turning them into solutions people actually enjoy using.
-
-- 🤖 Currently building **LLM-powered systems** that automate real workflows
-- 📊 Passionate about how organizations use **data** to make decisions
-- 🌲 Off the clock: hiking, traveling, hunting for good food, and petting every dog or cat I meet
-
 ## 🛠️ What I Do
 
 <table>
@@ -122,8 +112,4 @@ I'm always happy to hear about interesting problems and collaborate on meaningfu
   <a href="https://abhinandini-shrestha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio" /></a>
 </p>
 
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:8b5cf6,100:3b82f6&height=120&section=footer" alt="" width="100%" />
-</p>
 
