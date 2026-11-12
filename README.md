@@ -96,11 +96,6 @@ abhinandini@portfolio:~$ cat about.txt
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
 </p>
 
-## 🎓 Education
-
-**Master of Science in Information Management** — University of Washington, Seattle
-📅 2024 – 2025 · GPA 3.71 / 4.0 · *Focus: Data Science & Machine Learning*
-
 ## 🤝 Let's Build Something Together
 
 Have a project where I could help? Whether it's an AI/LLM idea, a data pipeline, or a full-stack app,
